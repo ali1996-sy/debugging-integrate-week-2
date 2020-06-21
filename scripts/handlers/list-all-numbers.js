@@ -14,8 +14,8 @@ function listAllNumbersHandler() {
     ex: "1, 2, 3, 4, 5, 6, "
   */
   let numbersList = '';
-  for (let i = _; i <= _; i++) {
-    _;
+  for (let i = 1; i <= range; i++) {
+    numbersList+=i+'';
   }
   console.log('numbersList:', typeof numbersList, '\n', numbersList);
 

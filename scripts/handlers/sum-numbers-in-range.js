@@ -10,8 +10,8 @@ function sumNumbersInRangeHandler() {
 
   // perform core logic
   let sum = 0;
-  for (let i = _; i <= _; i++) {
-    sum += _;
+  for (let i = 1; i <= range; i++) {
+    sum += i;
   }
   console.log('sum:', typeof sum, '\n', sum);
 

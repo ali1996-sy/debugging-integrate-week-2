@@ -1,3 +1,4 @@
+
 'use strict';
 // write the logic
 
@@ -23,8 +24,17 @@ function evensOrOddsHandler() {
     ...
   */
   let listedNumbers = '';
-  for (_; _; _) {
-
+  let i=1;
+  while ( 2*i<=range ||2*i+1<=range) {
+    if(displayEvens){
+      i=i*2;
+      }
+    else{
+      if(i==1)
+      listedNumbers+=i+','
+      i=i*2+1
+    }
+    listedNumbers+=i+','
   }
   console.log('listedNumbers:', typeof listedNumbers, '\n', listedNumbers);
 
